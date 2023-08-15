@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url(food.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+header{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background: black;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.12));
+}
+.logo{
+    width: 25%;
+    text-align: center;
+    
+}
+.logoh1{
+    margin-bottom: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    animation: flip 3s infinite; 
+}
+@keyframes flip {
+    0%,50% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    width: 20%;
+    margin-right: 5px;
+    text-decoration: none;
+    color: aqua;
+    margin-top: 7px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+   padding: 5px 5px;
+   margin-bottom: 5px;
+   background-color: black;
+    border: 3px solid greenyellow;
+    border-radius: 5px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 3px;
+}
+.btn a{
+    margin-right: 7px;
+}
+.btn:hover{
+    border: 3px solid aqua;
+    background-color: rgb(248, 9, 248);
+}
+a:hover{
+  color: yellow;
+}
+.welcomeHeading{
+   text-align: center;
+   color: rgb(232, 232, 12);
+   margin-top: 15px;
+   font-size: 100%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.search-nav{
+    font-size:500% ;
+}
+.search{
+    text-align: center;
+    margin-top: 10px;
+    margin-left:2% ;
+}
+.search input{
+   
+    padding: 0.5rem ;
+    font-size: 20px;
+    background: rgb(198, 185, 185);
+    border: 3px solid black;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 40%;
+   height: 35px;
+  
+}
+.search input:focus{
+    outline: #236d74;
+    background: #a6e1da;
+}
+.search button{
+    border: 5x solid black;
+    padding: 8px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.head1{
+   margin-left: 37%;
+}
+
+.head1 h1{
+    border: 3px solid black;
+    width: 40%;
+    height: 5%;
+    text-align: center;
+    background: rgb(220, 196, 196);
+    margin-top: 250px;
+}
+.typeFood{
+    background: linear-gradient(rgba(0,0,0,0.12));
+}
+
+.vegfood p{
+    color: aqua;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border: 3px solid rgb(237, 198, 7);
+    border-radius: 5px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.12));
+    margin: 5px;
+}
+
+.foodbox{
+    float: left;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+   padding-left: 40px;
+    margin-top: 10px;
+}
+.foodbox h3{
+    font: 400;
+    color: ghostwhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+    width: 70%;
+    margin-left:75px ;
+    background-color: rgb(139, 133, 133);
+}
+.foodbox img{
+  border: 3px solid black;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.vegfood2{
+    margin-top: 20px;
+}
+
+.vegheading{
+  margin: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font: 400;
+  color: ghostwhite;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  text-align: center;
+  width: 40%;
+  margin-left:480px ;
+  background-color: rgb(139, 133, 133);
+}
+
+.content {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: 73%;
+    height: 25%;
+    padding: 5px;
+    transition: 0.5s;
+}
+.box img{
+    border: 3px solid green;
+    border-radius: 5px;
+    
+}
+.box img:hover{
+    transform: scale(1.1);
+}
+.box h2{
+    text-align: center;
+    border: 3px solid rgb(248, 242, 247);
+    background-color: rgb(208, 125, 23);
+    color: rgb(98, 249, 10);
+}
+.box h4{
+    text-align: center;
+    border: 2px solid rgb(123, 7, 231);
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+}
+.box button{
+   text-align: center;
+   font-size: medium;
+   padding: 5px;
+   margin: 3px;
+   margin-left: 33%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(245, 6, 98);
+   background-color: yellowgreen;
+}
+.box button:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: yellow;
+    margin-top: 20px;
+}
+
+

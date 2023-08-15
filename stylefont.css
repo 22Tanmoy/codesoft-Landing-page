@@ -1,0 +1,62 @@
+.topic{
+    text-align: center;
+}
+.text-shadow{
+    color: aqua;
+    text-shadow: 5px 3px 4px red; /*this one for single shadow*/
+    /*5px says horizontal , 3px says vartical , 4px says blur , last one shadow color*/
+}
+/*i want to create double shadow*/
+.text-shadow2{
+    color: aqua;
+    text-shadow: 5px 3px 4px red , 20px 5px 5px blue;
+}
+.box-shadow{
+    /*by default your font color is box color*/
+    background-color: yellowgreen;
+    height: 200px;
+    width: 40%;
+    box-shadow:10px 10px 10px;
+}
+
+.box-shadow2{
+    background-color: yellowgreen;
+    color: rgb(254, 19, 6);
+    height: 200px;
+    width: 40%;
+    /*multiple shadow*/
+    box-shadow: 10px 10px 15px blue,10px 10px 5px deeppink;
+}
+.dimession{
+    text-align: center;
+}
+.Dimension-properties{
+    border: 3px solid black;
+    max-height: 100px;
+    overflow: scroll;
+}
+.Dimension-properties2{
+    border: 3px solid black;
+    min-height: 300px;
+    
+}
+.trans{
+    background-color: aqua;
+    transform: translate(100px,50px);
+}
+
+.trans1{
+    background-color: aqua;
+    /*transform: rotate(-90deg);*/
+}
+
+.trans2{
+    margin: 500px;
+    background-color: aqua;
+    transform: scale(2,3);
+}
+.trans3{
+    margin: 500px;
+    background-color: aqua;
+    transform: skew(45deg);
+}
